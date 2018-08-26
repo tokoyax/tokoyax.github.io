@@ -1,0 +1,15 @@
+Configuring xml-types-0.3.6...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for xml-types-0.3.6..
+Building library for xml-types-0.3.6..
+[1 of 1] Compiling Data.XML.Types   ( lib/Data/XML/Types.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/XML/Types.o )
+
+[;1mlib/Data/XML/Types.hs:27:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 131 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m27 |[0m[0m [;1m[35m        [0m[0m( -- * Types
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0mignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/takuya/.stack/snapshots/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/xml-types-0.3.6-FWN9dD9K4Pf2M2rvMuT5Tt
+Registering library for xml-types-0.3.6..

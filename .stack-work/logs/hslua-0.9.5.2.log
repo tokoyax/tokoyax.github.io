@@ -1,0 +1,91 @@
+Configuring hslua-0.9.5.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hslua-0.9.5.2..
+Building library for hslua-0.9.5.2..
+[ 1 of 12] Compiling Foreign.Lua.Api.Types ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api/Types.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api/Types.o )
+[ 2 of 12] Compiling Foreign.Lua.Api.RawBindings ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api/RawBindings.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api/RawBindings.o )
+[ 3 of 12] Compiling Foreign.Lua.Api.Constants ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api/Constants.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api/Constants.o )
+[ 4 of 12] Compiling Foreign.Lua.Types.Lua ( src/Foreign/Lua/Types/Lua.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Types/Lua.o )
+[ 5 of 12] Compiling Foreign.Lua.Types.Error ( src/Foreign/Lua/Types/Error.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Types/Error.o )
+[ 6 of 12] Compiling Foreign.Lua.Api  ( src/Foreign/Lua/Api.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Api.o )
+[ 7 of 12] Compiling Foreign.Lua.Types.FromLuaStack ( src/Foreign/Lua/Types/FromLuaStack.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Types/FromLuaStack.o )
+[ 8 of 12] Compiling Foreign.Lua.Types.ToLuaStack ( src/Foreign/Lua/Types/ToLuaStack.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Types/ToLuaStack.o )
+[ 9 of 12] Compiling Foreign.Lua.Types ( src/Foreign/Lua/Types.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Types.o )
+[10 of 12] Compiling Foreign.Lua.Util ( src/Foreign/Lua/Util.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/Util.o )
+[11 of 12] Compiling Foreign.Lua.FunctionCalling ( src/Foreign/Lua/FunctionCalling.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua/FunctionCalling.o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 12] Compiling Foreign.Lua      ( src/Foreign/Lua.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Foreign/Lua.o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/takuya/.stack/snapshots/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/hslua-0.9.5.2-I9JB7zQn1V8DlgyB7J4lSU
+Registering library for hslua-0.9.5.2..

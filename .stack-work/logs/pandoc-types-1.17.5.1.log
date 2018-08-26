@@ -1,0 +1,30 @@
+Configuring pandoc-types-1.17.5.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for pandoc-types-1.17.5.1..
+Building library for pandoc-types-1.17.5.1..
+[1 of 7] Compiling Paths_pandoc_types ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_pandoc_types.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_pandoc_types.o )
+[2 of 7] Compiling Text.Pandoc.Definition ( Text/Pandoc/Definition.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Pandoc/Definition.o )
+
+[;1mText/Pandoc/Definition.hs:93:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m93 |[0m[0m [;1m[35mimport Data.Semigroup[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[3 of 7] Compiling Text.Pandoc.Builder ( Text/Pandoc/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Pandoc/Builder.o )
+
+[;1mText/Pandoc/Builder.hs:179:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Semigroup’ is redundant
+      except perhaps to import instances from ‘Data.Semigroup’
+    To import instances alone, use: import Data.Semigroup()[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m179 |[0m[0m [;1m[35mimport Data.Semigroup[0m[0m
+[;1m[34m    |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[4 of 7] Compiling Text.Pandoc.Arbitrary ( Text/Pandoc/Arbitrary.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Pandoc/Arbitrary.o )
+[5 of 7] Compiling Text.Pandoc.Generic ( Text/Pandoc/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Pandoc/Generic.o )
+[6 of 7] Compiling Text.Pandoc.Walk ( Text/Pandoc/Walk.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Pandoc/Walk.o )
+[7 of 7] Compiling Text.Pandoc.JSON ( Text/Pandoc/JSON.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Pandoc/JSON.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/takuya/.stack/snapshots/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/pandoc-types-1.17.5.1-9cpG8mYeMl77rDwdvssSq4
+Registering library for pandoc-types-1.17.5.1..

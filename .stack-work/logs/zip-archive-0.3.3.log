@@ -1,0 +1,13 @@
+[1 of 2] Compiling Main             ( /private/var/folders/3d/qfzhq26j6s3793mxg399dqfr0000gn/T/stack86872/zip-archive-0.3.3/Setup.hs, /private/var/folders/3d/qfzhq26j6s3793mxg399dqfr0000gn/T/stack86872/zip-archive-0.3.3/.stack-work/dist/x86_64-osx/Cabal-2.2.0.1/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /Users/takuya/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/3d/qfzhq26j6s3793mxg399dqfr0000gn/T/stack86872/zip-archive-0.3.3/.stack-work/dist/x86_64-osx/Cabal-2.2.0.1/setup/StackSetupShim.o )
+Linking /private/var/folders/3d/qfzhq26j6s3793mxg399dqfr0000gn/T/stack86872/zip-archive-0.3.3/.stack-work/dist/x86_64-osx/Cabal-2.2.0.1/setup/setup ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Configuring zip-archive-0.3.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for zip-archive-0.3.3..
+Building library for zip-archive-0.3.3..
+[1 of 1] Compiling Codec.Archive.Zip ( src/Codec/Archive/Zip.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Codec/Archive/Zip.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/takuya/.stack/snapshots/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/zip-archive-0.3.3-L86sw0qRjlQ3K8TvkuegTJ
+Registering library for zip-archive-0.3.3..

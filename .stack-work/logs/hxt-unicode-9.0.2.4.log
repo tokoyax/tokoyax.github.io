@@ -1,0 +1,14 @@
+Warning: hxt-unicode.cabal:8:1: The field "homepage" is specified more than
+once at positions 8:1, 13:1
+Configuring hxt-unicode-9.0.2.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hxt-unicode-9.0.2.4..
+Building library for hxt-unicode-9.0.2.4..
+[1 of 5] Compiling Data.Char.IsoLatinTables ( src/Data/Char/IsoLatinTables.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Char/IsoLatinTables.o )
+[2 of 5] Compiling Data.String.EncodingNames ( src/Data/String/EncodingNames.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/String/EncodingNames.o )
+[3 of 5] Compiling Data.String.UTF8 ( src/Data/String/UTF8.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/String/UTF8.o )
+[4 of 5] Compiling Data.String.UTF8Decoding ( src/Data/String/UTF8Decoding.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/String/UTF8Decoding.o )
+[5 of 5] Compiling Data.String.Unicode ( src/Data/String/Unicode.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/String/Unicode.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/takuya/.stack/snapshots/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/hxt-unicode-9.0.2.4-2JkMFY2Xvzp4PpxFbG4N53
+Registering library for hxt-unicode-9.0.2.4..

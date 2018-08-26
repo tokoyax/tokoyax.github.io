@@ -1,0 +1,2590 @@
+Configuring hs-bibutils-6.6.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hs-bibutils-6.6.0.0..
+Bibutils.hsc:487:9: warning: 'hsc_alignment' macro redefined [-Wmacro-redefined]
+#define hsc_alignment(t ) hsc_printf ( "%lu", (unsigned long)offsetof(struct {char x__; t (y__); }, y__));
+        ^
+/Users/takuya/.stack/programs/x86_64-osx/ghc-8.4.3/lib/ghc-8.4.3/template-hsc.h:91:9: note: previous definition is here
+#define hsc_alignment(x...)                                           \
+        ^
+1 warning generated.
+Building library for hs-bibutils-6.6.0.0..
+[1 of 1] Compiling Text.Bibutils    ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Bibutils.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Text/Bibutils.o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/biblatexin.c:1257:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE          ] = generic_simple,
+                                          ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1257 |[0m[0m                 [ SIMPLE[;1m[31m [0m[0m         ] = generic_simple,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1258:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES           ] = generic_pages,
+                                          ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1258 |[0m[0m                 [ PAGES [;1m[31m [0m[0m         ] = generic_pages,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1259:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES           ] = generic_notes,
+                                          ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1259 |[0m[0m                 [ NOTES [;1m[31m [0m[0m         ] = generic_notes,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1260:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON          ] = biblatexin_person,
+                                          ^~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1260 |[0m[0m                 [ PERSON[;1m[31m [0m[0m         ] = biblatexin_person,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1261:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_EDITOR      ] = biblatexin_blteditor,
+                                          ^~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1261 |[0m[0m                 [ BLT_ED[;1m[31mI[0m[0mTOR      ] = biblatexin_blteditor,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1262:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ HOWPUBLISHED    ] = biblatexin_howpublished,
+                                          ^~~~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1262 |[0m[0m                 [ HOWPUB[;1m[31mL[0m[0mISHED    ] = biblatexin_howpublished,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1263:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL             ] = generic_url,
+                                          ^~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1263 |[0m[0m                 [ URL   [;1m[31m [0m[0m         ] = generic_url,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1264:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE           ] = biblatexin_btgenre,
+                                          ^~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1264 |[0m[0m                 [ GENRE [;1m[31m [0m[0m         ] = biblatexin_btgenre,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1265:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BT_EPRINT       ] = biblatexin_bteprint,
+                                          ^~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1265 |[0m[0m                 [ BT_EPR[;1m[31mI[0m[0mNT       ] = biblatexin_bteprint,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1266:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_THESIS_TYPE ] = biblatexin_bltthesistype,
+                                          ^~~~~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1266 |[0m[0m                 [ BLT_TH[;1m[31mE[0m[0mSIS_TYPE ] = biblatexin_bltthesistype,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1267:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_SCHOOL      ] = biblatexin_bltschool,
+                                          ^~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1267 |[0m[0m                 [ BLT_SC[;1m[31mH[0m[0mOOL      ] = biblatexin_bltschool,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1268:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_SUBTYPE     ] = biblatexin_bltsubtype,
+                                          ^~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1268 |[0m[0m                 [ BLT_SU[;1m[31mB[0m[0mTYPE     ] = biblatexin_bltsubtype,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1269:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_SKIP        ] = generic_skip,
+                                          ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1269 |[0m[0m                 [ BLT_SK[;1m[31mI[0m[0mP        ] = generic_skip,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1270:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE           ] = generic_null,    /* delay processing until later */
+                                          ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1270 |[0m[0m                 [ TITLE [;1m[31m [0m[0m         ] = generic_null,    /* delay processing until later */
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m14 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/biblatexin.c:1257:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE          ] = generic_simple,
+                                          ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1257 |[0m[0m                 [ SIMPLE[;1m[31m [0m[0m         ] = generic_simple,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1258:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES           ] = generic_pages,
+                                          ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1258 |[0m[0m                 [ PAGES [;1m[31m [0m[0m         ] = generic_pages,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1259:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES           ] = generic_notes,
+                                          ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1259 |[0m[0m                 [ NOTES [;1m[31m [0m[0m         ] = generic_notes,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1260:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON          ] = biblatexin_person,
+                                          ^~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1260 |[0m[0m                 [ PERSON[;1m[31m [0m[0m         ] = biblatexin_person,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1261:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_EDITOR      ] = biblatexin_blteditor,
+                                          ^~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1261 |[0m[0m                 [ BLT_ED[;1m[31mI[0m[0mTOR      ] = biblatexin_blteditor,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1262:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ HOWPUBLISHED    ] = biblatexin_howpublished,
+                                          ^~~~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1262 |[0m[0m                 [ HOWPUB[;1m[31mL[0m[0mISHED    ] = biblatexin_howpublished,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1263:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL             ] = generic_url,
+                                          ^~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1263 |[0m[0m                 [ URL   [;1m[31m [0m[0m         ] = generic_url,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1264:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE           ] = biblatexin_btgenre,
+                                          ^~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1264 |[0m[0m                 [ GENRE [;1m[31m [0m[0m         ] = biblatexin_btgenre,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1265:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BT_EPRINT       ] = biblatexin_bteprint,
+                                          ^~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1265 |[0m[0m                 [ BT_EPR[;1m[31mI[0m[0mNT       ] = biblatexin_bteprint,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1266:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_THESIS_TYPE ] = biblatexin_bltthesistype,
+                                          ^~~~~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1266 |[0m[0m                 [ BLT_TH[;1m[31mE[0m[0mSIS_TYPE ] = biblatexin_bltthesistype,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1267:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_SCHOOL      ] = biblatexin_bltschool,
+                                          ^~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1267 |[0m[0m                 [ BLT_SC[;1m[31mH[0m[0mOOL      ] = biblatexin_bltschool,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1268:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_SUBTYPE     ] = biblatexin_bltsubtype,
+                                          ^~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1268 |[0m[0m                 [ BLT_SU[;1m[31mB[0m[0mTYPE     ] = biblatexin_bltsubtype,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1269:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BLT_SKIP        ] = generic_skip,
+                                          ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1269 |[0m[0m                 [ BLT_SK[;1m[31mI[0m[0mP        ] = generic_skip,
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1270:25: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE           ] = generic_null,    /* delay processing until later */
+                                          ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1270 |[0m[0m                 [ TITLE [;1m[31m [0m[0m         ] = generic_null,    /* delay processing until later */
+[;1m[34m     |[0m[0m[;1m[31m                         ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/biblatexin.c:1256:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1256 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m14 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/bibtexin.c:1292:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1292 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1293:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = bibtexin_title,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1293 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = bibtexin_title,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1294:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = bibtexin_person,
+                                       ^~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1294 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = bibtexin_person,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1295:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES        ] = generic_pages,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1295 |[0m[0m                 [ PAG[;1m[31mE[0m[0mS        ] = generic_pages,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1296:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ KEYWORD      ] = bibtexin_keyword,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1296 |[0m[0m                 [ KEY[;1m[31mW[0m[0mORD      ] = bibtexin_keyword,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1297:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ EPRINT       ] = bibtexin_eprint,
+                                       ^~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1297 |[0m[0m                 [ EPR[;1m[31mI[0m[0mNT       ] = bibtexin_eprint,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1298:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ HOWPUBLISHED ] = bibtexin_howpublished,
+                                       ^~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1298 |[0m[0m                 [ HOW[;1m[31mP[0m[0mUBLISHED ] = bibtexin_howpublished,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1299:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ LINKEDFILE   ] = bibtexin_linkedfile,
+                                       ^~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1299 |[0m[0m                 [ LIN[;1m[31mK[0m[0mEDFILE   ] = bibtexin_linkedfile,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1300:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1300 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1301:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE        ] = generic_genre,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1301 |[0m[0m                 [ GEN[;1m[31mR[0m[0mE        ] = generic_genre,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1302:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BT_SENTE     ] = bibtexin_btsente,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1302 |[0m[0m                 [ BT_[;1m[31mS[0m[0mENTE     ] = bibtexin_btsente,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1303:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BT_ORG       ] = bibtexin_btorg,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1303 |[0m[0m                 [ BT_[;1m[31mO[0m[0mRG       ] = bibtexin_btorg,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1304:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL          ] = generic_url
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1304 |[0m[0m                 [ URL[;1m[31m [0m[0m         ] = generic_url
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m13 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/bibtexin.c:1292:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1292 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1293:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = bibtexin_title,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1293 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = bibtexin_title,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1294:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = bibtexin_person,
+                                       ^~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1294 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = bibtexin_person,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1295:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES        ] = generic_pages,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1295 |[0m[0m                 [ PAG[;1m[31mE[0m[0mS        ] = generic_pages,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1296:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ KEYWORD      ] = bibtexin_keyword,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1296 |[0m[0m                 [ KEY[;1m[31mW[0m[0mORD      ] = bibtexin_keyword,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1297:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ EPRINT       ] = bibtexin_eprint,
+                                       ^~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1297 |[0m[0m                 [ EPR[;1m[31mI[0m[0mNT       ] = bibtexin_eprint,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1298:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ HOWPUBLISHED ] = bibtexin_howpublished,
+                                       ^~~~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1298 |[0m[0m                 [ HOW[;1m[31mP[0m[0mUBLISHED ] = bibtexin_howpublished,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1299:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ LINKEDFILE   ] = bibtexin_linkedfile,
+                                       ^~~~~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1299 |[0m[0m                 [ LIN[;1m[31mK[0m[0mEDFILE   ] = bibtexin_linkedfile,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1300:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1300 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1301:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE        ] = generic_genre,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1301 |[0m[0m                 [ GEN[;1m[31mR[0m[0mE        ] = generic_genre,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1302:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BT_SENTE     ] = bibtexin_btsente,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1302 |[0m[0m                 [ BT_[;1m[31mS[0m[0mENTE     ] = bibtexin_btsente,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1303:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ BT_ORG       ] = bibtexin_btorg,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1303 |[0m[0m                 [ BT_[;1m[31mO[0m[0mRG       ] = bibtexin_btorg,
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1304:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL          ] = generic_url
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1304 |[0m[0m                 [ URL[;1m[31m [0m[0m         ] = generic_url
+[;1m[34m     |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/bibtexin.c:1291:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m     |[0m[0m
+[;1m[34m1291 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m     |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m13 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/copacin.c:264:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m264 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:265:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m265 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:266:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m266 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:267:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m267 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:268:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = copacin_person
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m268 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = copacin_person
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m5 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/copacin.c:264:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m264 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:265:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m265 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:266:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m266 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:267:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m267 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:268:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = copacin_person
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m268 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = copacin_person
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/copacin.c:263:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m263 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m5 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/endin.c:535:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m535 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:536:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m536 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:537:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = generic_person,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m537 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = generic_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:538:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m538 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:539:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES        ] = generic_pages,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m539 |[0m[0m                 [ PAG[;1m[31mE[0m[0mS        ] = generic_pages,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:540:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m540 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:541:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL          ] = generic_url,
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m541 |[0m[0m                 [ URL[;1m[31m [0m[0m         ] = generic_url,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:542:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE        ] = generic_genre,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m542 |[0m[0m                 [ GEN[;1m[31mR[0m[0mE        ] = generic_genre,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:543:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TYPE         ] = endin_type,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m543 |[0m[0m                 [ TYP[;1m[31mE[0m[0m         ] = endin_type,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:544:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = endin_date,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m544 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = endin_date,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m10 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/endin.c:535:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m535 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:536:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m536 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:537:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = generic_person,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m537 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = generic_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:538:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m538 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:539:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES        ] = generic_pages,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m539 |[0m[0m                 [ PAG[;1m[31mE[0m[0mS        ] = generic_pages,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:540:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m540 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:541:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL          ] = generic_url,
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m541 |[0m[0m                 [ URL[;1m[31m [0m[0m         ] = generic_url,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:542:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE        ] = generic_genre,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m542 |[0m[0m                 [ GEN[;1m[31mR[0m[0mE        ] = generic_genre,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:543:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TYPE         ] = endin_type,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m543 |[0m[0m                 [ TYP[;1m[31mE[0m[0m         ] = endin_type,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:544:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = endin_date,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m544 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = endin_date,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/endin.c:534:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m534 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m10 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/isiin.c:351:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m351 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:352:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m352 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:353:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = generic_person,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m353 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = generic_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:354:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m354 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:355:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m355 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:356:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m356 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:357:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ KEYWORD      ] = isiin_keyword,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m357 |[0m[0m                 [ KEY[;1m[31mW[0m[0mORD      ] = isiin_keyword,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m7 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/isiin.c:351:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m351 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:352:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m352 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:353:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = generic_person,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m353 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = generic_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:354:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m354 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:355:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m355 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:356:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m356 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:357:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ KEYWORD      ] = isiin_keyword,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m357 |[0m[0m                 [ KEY[;1m[31mW[0m[0mORD      ] = isiin_keyword,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/isiin.c:350:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m350 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m7 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/modsout.c:119:19: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Wvarargs]
+            va_start( attrs, newline );
+                             ^[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m119 |[0m[0m         va_start( [;1m[31ma[0m[0mttrs, newline );
+[;1m[34m    |[0m[0m[;1m[31m                   ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/modsout.c:115:99: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: parameter of type 'unsigned char' is declared here[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m115 |[0m[0m output_tag( FILE *outptr, int nindents, char *tag, char *value, unsigned char mode, unsigned char [;1m[31mn[0m[0mewline, ... )
+[;1m[34m    |[0m[0m[;1m[31m                                                                                                   ^[0m[0m
+[0m[0m[0moutput_tag( FILE *outptr, int nindents, char *tag, char *value, unsigned char mode, unsigned char newline, ... )
+                                                                                                  ^
+
+[;1mbibutils/modsout.c:141:20: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Wvarargs]
+                    va_start( attrs, newline );
+                                     ^[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m141 |[0m[0m                 va_[;1m[31ms[0m[0mtart( attrs, newline );
+[;1m[34m    |[0m[0m[;1m[31m                    ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/modsout.c:134:104: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: parameter of type 'unsigned char' is declared here[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m134 |[0m[0m output_fil( FILE *outptr, int nindents, char *tag, fields *f, int n, unsigned char mode, unsigned char [;1m[31mn[0m[0mewline, ... )
+[;1m[34m    |[0m[0m[;1m[31m                                                                                                        ^[0m[0m
+[0m[0m[0moutput_fil( FILE *outptr, int nindents, char *tag, fields *f, int n, unsigned char mode, unsigned char newline, ... )
+                                                                                                       ^
+2 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/modsout.c:119:19: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Wvarargs]
+            va_start( attrs, newline );
+                             ^[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m119 |[0m[0m         va_start( [;1m[31ma[0m[0mttrs, newline );
+[;1m[34m    |[0m[0m[;1m[31m                   ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/modsout.c:115:99: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: parameter of type 'unsigned char' is declared here[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m115 |[0m[0m output_tag( FILE *outptr, int nindents, char *tag, char *value, unsigned char mode, unsigned char [;1m[31mn[0m[0mewline, ... )
+[;1m[34m    |[0m[0m[;1m[31m                                                                                                   ^[0m[0m
+[0m[0m[0moutput_tag( FILE *outptr, int nindents, char *tag, char *value, unsigned char mode, unsigned char newline, ... )
+                                                                                                  ^
+
+[;1mbibutils/modsout.c:141:20: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Wvarargs]
+                    va_start( attrs, newline );
+                                     ^[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m141 |[0m[0m                 va_[;1m[31ms[0m[0mtart( attrs, newline );
+[;1m[34m    |[0m[0m[;1m[31m                    ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/modsout.c:134:104: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: parameter of type 'unsigned char' is declared here[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m134 |[0m[0m output_fil( FILE *outptr, int nindents, char *tag, fields *f, int n, unsigned char mode, unsigned char [;1m[31mn[0m[0mewline, ... )
+[;1m[34m    |[0m[0m[;1m[31m                                                                                                        ^[0m[0m
+[0m[0m[0moutput_fil( FILE *outptr, int nindents, char *tag, fields *f, int n, unsigned char mode, unsigned char newline, ... )
+                                                                                                       ^
+2 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/nbibin.c:476:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m476 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:477:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m477 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:478:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = generic_person,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m478 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = generic_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:479:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SKIP         ] = generic_skip,
+                                       ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m479 |[0m[0m                 [ SKI[;1m[31mP[0m[0m         ] = generic_skip,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:480:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = nbibin_date,
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m480 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = nbibin_date,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:481:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES        ] = nbibin_pages,
+                                       ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m481 |[0m[0m                 [ PAG[;1m[31mE[0m[0mS        ] = nbibin_pages,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:482:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DOI          ] = nbibin_doi,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m482 |[0m[0m                 [ DOI[;1m[31m [0m[0m         ] = nbibin_doi,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m7 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/nbibin.c:476:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m476 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:477:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m477 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:478:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = generic_person,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m478 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = generic_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:479:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SKIP         ] = generic_skip,
+                                       ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m479 |[0m[0m                 [ SKI[;1m[31mP[0m[0m         ] = generic_skip,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:480:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = nbibin_date,
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m480 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = nbibin_date,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:481:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PAGES        ] = nbibin_pages,
+                                       ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m481 |[0m[0m                 [ PAG[;1m[31mE[0m[0mS        ] = nbibin_pages,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:482:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DOI          ] = nbibin_doi,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m482 |[0m[0m                 [ DOI[;1m[31m [0m[0m         ] = nbibin_doi,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/nbibin.c:475:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m475 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m7 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/risin.c:515:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m515 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:516:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m516 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:517:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m517 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:518:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m518 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:519:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL          ] = generic_url,
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m519 |[0m[0m                 [ URL[;1m[31m [0m[0m         ] = generic_url,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:520:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE        ] = generic_genre,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m520 |[0m[0m                 [ GEN[;1m[31mR[0m[0mE        ] = generic_genre,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:521:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = risin_person,
+                                       ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m521 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = risin_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:522:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = risin_date,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m522 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = risin_date,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:523:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DOI          ] = risin_doi,
+                                       ^~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m523 |[0m[0m                 [ DOI[;1m[31m [0m[0m         ] = risin_doi,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:524:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ LINKEDFILE   ] = risin_linkedfile,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m524 |[0m[0m                 [ LIN[;1m[31mK[0m[0mEDFILE   ] = risin_linkedfile,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m10 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/risin.c:515:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SIMPLE       ] = generic_simple,
+                                       ^~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m515 |[0m[0m                 [ SIM[;1m[31mP[0m[0mLE       ] = generic_simple,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:516:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ TITLE        ] = generic_title,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m516 |[0m[0m                 [ TIT[;1m[31mL[0m[0mE        ] = generic_title,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:517:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ SERIALNO     ] = generic_serialno,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m517 |[0m[0m                 [ SER[;1m[31mI[0m[0mALNO     ] = generic_serialno,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:518:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ NOTES        ] = generic_notes,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m518 |[0m[0m                 [ NOT[;1m[31mE[0m[0mS        ] = generic_notes,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:519:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ URL          ] = generic_url,
+                                       ^~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m519 |[0m[0m                 [ URL[;1m[31m [0m[0m         ] = generic_url,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:520:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ GENRE        ] = generic_genre,
+                                       ^~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m520 |[0m[0m                 [ GEN[;1m[31mR[0m[0mE        ] = generic_genre,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:521:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ PERSON       ] = risin_person,
+                                       ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m521 |[0m[0m                 [ PER[;1m[31mS[0m[0mON       ] = risin_person,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:522:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DATE         ] = risin_date,
+                                       ^~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m522 |[0m[0m                 [ DAT[;1m[31mE[0m[0m         ] = risin_date,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:523:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ DOI          ] = risin_doi,
+                                       ^~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m523 |[0m[0m                 [ DOI[;1m[31m [0m[0m         ] = risin_doi,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:524:22: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+                    [ LINKEDFILE   ] = risin_linkedfile,
+                                       ^~~~~~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m524 |[0m[0m                 [ LIN[;1m[31mK[0m[0mEDFILE   ] = risin_linkedfile,
+[;1m[34m    |[0m[0m[;1m[31m                      ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risin.c:514:30: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+                    [ 0 ... NUM_REFTYPES-1 ] = generic_null,
+                                               ^~~~~~~~~~~~[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m514 |[0m[0m                 [ 0 ... NUM_R[;1m[31mE[0m[0mFTYPES-1 ] = generic_null,
+[;1m[34m    |[0m[0m[;1m[31m                              ^[0m[0m
+[0m[0m[0m10 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/risout.c:85:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_ARTICLE      ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m85 |[0m[0m         [ TYPE_ARTICLE   [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:86:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_INBOOK       ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m86 |[0m[0m         [ TYPE_INBOOK    [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:87:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_MAGARTICLE   ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m87 |[0m[0m         [ TYPE_MAGARTICLE[;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:88:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_NEWSPAPER    ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m88 |[0m[0m         [ TYPE_NEWSPAPER [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:89:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_ABSTRACT     ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m89 |[0m[0m         [ TYPE_ABSTRACT  [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:90:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_CONF         ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m90 |[0m[0m         [ TYPE_CONF      [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:95:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_ARTICLE      ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m95 |[0m[0m         [ TYPE_ARTICLE   [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:94:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m94 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:96:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_MAGARTICLE   ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m96 |[0m[0m         [ TYPE_MAGARTICLE[;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:94:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m94 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m8 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+
+[;1mbibutils/risout.c:85:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_ARTICLE      ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m85 |[0m[0m         [ TYPE_ARTICLE   [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:86:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_INBOOK       ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m86 |[0m[0m         [ TYPE_INBOOK    [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:87:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_MAGARTICLE   ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m87 |[0m[0m         [ TYPE_MAGARTICLE[;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:88:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_NEWSPAPER    ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m88 |[0m[0m         [ TYPE_NEWSPAPER [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:89:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_ABSTRACT     ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m89 |[0m[0m         [ TYPE_ABSTRACT  [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:90:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_CONF         ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m90 |[0m[0m         [ TYPE_CONF      [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:84:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m84 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:95:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_ARTICLE      ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m95 |[0m[0m         [ TYPE_ARTICLE   [;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:94:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m94 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:96:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+            [ TYPE_MAGARTICLE   ] = 1,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m96 |[0m[0m         [ TYPE_MAGARTICLE[;1m[31m [0m[0m  ] = 1,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m
+[;1mbibutils/risout.c:94:26: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+     note: previous initialization is here
+            [ 0 ... NUM_TYPES-1 ] = 0,
+                                    ^[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m94 |[0m[0m         [ 0 ... NUM_TYPES[;1m[31m-[0m[0m1 ] = 0,
+[;1m[34m   |[0m[0m[;1m[31m                          ^[0m[0m
+[0m[0m[0m8 warnings generated.
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/objs-99240/libHShs-bibutils-6.6.0.0-EPnifPWXp9L7Ofj5S6ivGg.a(adsout_journals.o) has no symbols
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/takuya/.stack/snapshots/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/hs-bibutils-6.6.0.0-EPnifPWXp9L7Ofj5S6ivGg
+Registering library for hs-bibutils-6.6.0.0..
